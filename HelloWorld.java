@@ -11,7 +11,9 @@ public class HelloWorld {
         driver.get("https://www.flipkart.com/");
         System.out.println("Title"+driver.getTitle());
         System.out.println("Current url"+driver.getCurrentUrl());
-       // System.out.println(driver.getPageSource());
+
+        // getpagesource
+       System.out.println(driver.getPageSource());
 
     }
 }
